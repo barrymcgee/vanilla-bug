@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node-sass ./src/sass/cookie-policy.scss --include-path node_modules --output build/css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2",
-    "vanilla-framework": "^1.8.1"
+    "node-sass": "^4.5.3",
+    "vanilla-framework": "^1.8.0"
   }
 }
